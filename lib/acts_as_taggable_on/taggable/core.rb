@@ -244,7 +244,7 @@ module ActsAsTaggableOn::Taggable
         @taggable_mixin ||= Module.new
       end
 
-      private
+      # private
 
       # Rails 5 has merged sanitize and quote_value
       # See https://github.com/rails/rails/blob/master/activerecord/lib/active_record/sanitization.rb#L10
